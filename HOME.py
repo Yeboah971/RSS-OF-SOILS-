@@ -73,7 +73,7 @@ if nav== "Prediction":
     # Function to handle user input and prediction
     def main():
          Liquid_Limit= st.text_input("Liquid Limit (%)", "")
-         Plasticity_Index = st.text_input("Plasticity index (%)", "")
+         Plasticity_Index = st.text_input("Plasticity Index (%)", "")
          Change_in_Plasticity_Index = st.text_input("Change in Plasticity Index (%)", "")
          Clay_Fraction = st.text_input("Clay Fraction (%)", "")
 
